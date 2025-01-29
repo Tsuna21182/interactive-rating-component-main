@@ -22,7 +22,7 @@ function App() {
     <main className="items-center justify-center flex h-screen mx-auto max-w-96">
       <div className="bg-Dark-Blue rounded-2xl p-5 mx-4">
         {showConfirmation ? (
-          <Message selectedRating={selectedRating} />
+          <Message selectedRating={selectedRating!} />
         ) : (
           <>
             <div className="bg-Bg-Grey h-10 w-10 flex justify-center items-center rounded-full">
