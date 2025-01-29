@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* primary */
+
+  --color-Orange: #fb7413;
+
+  /* neutral */
+
+  --color-White: #ffffff;
+  --color-Light-Grey: #959eac;
+  --color-Bg-Grey: #474a50;
+  --color-Dark-Blue: #252d37;
+  --color-Very-Dark-Blue: #121417;
+
+  /* font */
+
+  --font-display: "Overpass", serif;
+}
